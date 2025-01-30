@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharanabasava B Patil | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">LORD</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+     <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="greeting-text animate-fade-in">Hola Amigos! I am</div>
+            <h1 class="animate-fade-in">Sharanabasava B Patil</h1>
+            <div class="animated-text">
+                <span class="text-first">CSE Student at KLE Tech.</span>
+                <span class="text-second">Passionate Developer</span>
+                <span class="text-third">Tech Enthusiast</span>
+                <span class="text-third">Multiskiller</span>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sharanabasava-b-patil-63a7aa338" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/sharnu_9" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:sharnuuu9@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+   <section id="about" class="about">
+    <div class="about-container">
+        <div class="about-image animate-slide-left">
+            <img src="images/profile.jpg" class="circular-profile" alt="Sharanabasava Patil">
+        </div>
+        <div class="about-content animate-slide-right">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-bio">
+                <p>First-year Computer Science Engineering student passionate about coding and technology. Currently exploring:</p>
+                <ul class="skills-list">
+                    <li><i class="fas fa-code"></i> Programming Fundamentals</li>
+                    <li><i class="fas fa-laptop-code"></i> Web Development Basics</li>
+                    <li><i class="fas fa-brain"></i> Problem Solving Techniques</li>
+                </ul>
+                <p>Always eager to learn new technologies and collaborate on interesting projects. Currently focusing on strengthening my core programming skills while exploring frontend development.</p>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    
+                    <p>B.E in Computer Science Engineering</p>
+                    <p>KLE Tech. Hubli</p>
+                </div>
+            </div>
+            <a href="#" class="cta-button download-resume">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </div>
+</section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title animate-slide-up">Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front">
+                        <i class="fab fa-cuttlefish"></i>
+                        <h3>C Programming</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>Advanced concepts mastery</p>
+                        <p>Data Structures & Algorithms</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more skill cards -->
+            <div class="skill-card">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front">
+                        <i class="fab fa-c-plus-plus"></i>
+                        <h3>C++</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>Object-Oriented Programming</p>
+                        <p>STL Library</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-card-back">
+          
+                        <p>Learning Basics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>Not MUCH !</p>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title animate-slide-up">Get in Touch</h2>
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <input type="hidden" name="_subject" value="New Portfolio Message">
+            <input type="hidden" name="_next" value="/thanks.html">
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
